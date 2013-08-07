@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\pagestyle{empty}
+
+\begin{document}
+Problem 1 can be solved through arithmetic. A simple way of obtaining the result is by adding all the multiples of 3 and all the multiples of 5, while subtracting multiples of both 3 and 5 (i.e. multiples of 15).
+ This can be easily achieved using the commonly known closed form of integer summation.
+
+	\[ \sum_{i=1}^n i = \frac{n(n+1)}{2} \]
+
+Of course, all the multiples have to be less than 1000. For this we need to know the limits of our summations, that is, find the greatest multiple of $n$ less than 1000 for $n \in \{3, 5, 15\}$. This is done by calculating $\left\lfloor{\frac{1000}{n}}\right\rfloor$. Therefore, our result is as follows.
+
+\[
+	\sum_{i=1}^{333} 3i + \sum_{i=1}^{199} 5i - \sum_{i=1}^{66} 15i = 233168
+\]
+
+\end{document}

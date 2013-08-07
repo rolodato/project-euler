@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\pagestyle{empty}
+
+\begin{document}
+Problem 5 can also be solved with relative ease without a program. We can build a number
+divisible by all of the numbers from 1 to 20 by constructively adding prime factors to it.
+
+First, it needs to be a multiple of every prime up to 20.
+
+	\[ 2 \times 3 \times 5 \times 7 \times 11 \times 13 \times 17 \times 19 \]
+
+It also needs to be a multiple of 20 (hence divisible by 4).
+
+	\[ 2^2 \times 3 \times 5 \times 7 \times 11 \times 13 \times 17 \times 19 \]
+
+This number is still not divisible by 8, 9, 16 or 18, so we add the missing factors and the resulting number is guaranteed to be the smallest match.
+
+	\[ 2^4 \times 3^2 \times 5 \times 7 \times 11 \times 13 \times 17 \times 19 = 232792560\]
+
+\end{document}

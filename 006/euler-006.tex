@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\pagestyle{empty}
+
+\begin{document}
+We can solve Problem 6 with closed form summations, just like we solved Problem 1. We first need to know the closed form for the square of a sum.
+
+\[ \left(\sum_{i=1}^n i\right)^2 = \left(\frac{n(n+1)}{2}\right)^2 = \frac{n^2(n+1)^2}{4} \]
+
+We also need the closed form for a sum of squares, which can be easily proved by mathematical induction.
+
+\[ \sum_{i=1}^n i^2 = \frac{(n+1)(n+2)(2n+3)}{6} \]
+
+Using these closed forms, we can simply calculate the result.
+
+\[  \left(\sum_{i=1}^{100} i\right)^2 - \sum_{i=1}^{100} i^2 = 25502500 - 338350 = 25164150 \]
+\end{document}

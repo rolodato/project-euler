@@ -1,0 +1,5 @@
+What is the largest prime factor of the number 600851475143 ?
+
+http://www.wolframalpha.com/input/?i=largest+prime+factor+of+600851475143
+
+Don't reinvent the wheel.
