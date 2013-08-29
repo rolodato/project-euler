@@ -11,7 +11,6 @@ var sundays = 0
 var start = new DateTime("1901-1-1")
 val end = new DateTime("2000-12-31")
 
-// Imperative solution
 while (start isBefore end) {
 	if (start.getDayOfWeek == DateTimeConstants.SUNDAY) {
 		sundays += 1
