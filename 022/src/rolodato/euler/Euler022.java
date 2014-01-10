@@ -33,7 +33,6 @@ public class Euler022 {
 			sum += value(names.get(i)) * i;
 		}
 		System.out.println(sum);
-		System.out.println(value("COLIN"));
 	}
 	
 	private static int value(String name) {
